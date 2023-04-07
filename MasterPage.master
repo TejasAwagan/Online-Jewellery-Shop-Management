@@ -1,0 +1,82 @@
+
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Touch of Purple
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Diana's Jewellery Shop</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Waterwheel Carousel -->
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript" src="layout/scripts/carousel/jquery.waterwheelCarousel.setup.js"></script>
+<asp:ContentPlaceHolder id="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+<!-- / Waterwheel Carousel -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="Home.aspx" >Diana's Jewellery Shop</a></h1>
+      <p>Enjoy the moment of Ethnic beauty</p>
+    </div>
+    <!--<div class="fl_right"></div>-->
+    <br class="clear" />
+  </div>
+<div class="wrapper col2">
+  <div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="Home.aspx">Home</a></li>
+        <li><a href="index.html">Logout</a></li>
+        <li><a href="Gallery.aspx">Gallery</a></li>
+        <!--<li><a href="#">Ornament Type</a>
+          <ul>
+            <li><a href="#">Gold</a></li>
+            <li><a href="#">Platinum</a></li>
+            
+          </ul>
+        </li>-->
+        <li class="last"><a href="contact us.aspx" >Contact Us</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+</div>
+<!-- ####################################################################################################### -->
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+   <br class="clear" />
+    <center>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+       
+        
+        <p style="height: 286px">
+            <br />
+        </p>
+        
+       
+        
+    </asp:ContentPlaceHolder>
+        </center>
+     <br class="clear" />
+    <br class="clear" />
+</div>
+<!-- ####################################################################################################### -->
+<!-- ####################################################################################################### -->
+<!-- ####################################################################################################### -->
+ </body>
+</html>
+
